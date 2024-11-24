@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imgs\logo.png">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+        integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Stats | ENVI - DRONE</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg d-flex justify-content-between">
+                <a class="navbar-brand" href="#"><img src="imgs\logo.png" alt=""> ENVI - DRONE</a>
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                
+                    <li class="nav-item">
+                        <a class="nav-link active" href="stats.html">Stats</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="user.html">User</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <!--<form class="justify-content-end">
+                    <button class="btn rounded-pill me-2" type="button" id="login">Login</button>
+                    <button class="btn btn-2 rounded-pill" type="button">Sign Up</button>
+                </form>-->
+            </nav>
+        </div>
+    </header>
+
+    <a href="#" class="gotopbtn rounded-circle"><i class="fas fa-arrow-up"></i></a>
+
+    <section class="banner">
+        <div class="hero-back">
+            <img class="nature-img" src="imgs\homebg.jpeg" alt="">
+        </div>
+        <div class="container">
+            <div class="hero-container text-center">
+                <h1>Stats</h1>
+            </div>
+        </div>
+    </section>
+
+    <section id="main">
+        <div class="container">
+            <div class="package-list row g-5">
+                <div class="col-md-6 col-xl-4">
+                    <div class="card">
+                        <div class="package-img">
+                            <img src="imgs\humid.png"
+                                class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h3 id="humidity">Loading...</h3>
+                            <!--<p class="card-text">A trip to the beautiful lands of Japan! Plan with us your vacation in
+                                the land of the rising sun.</p>
+                            <h4>Package includes:</h4>
+                            <ul>
+                                <li class="japan">Flight Accomodation</li>
+                                <li class="japan">Car Rental</li>
+                                <li class="japan">Inn Reservation</li>
+                                <li class="japan">Tour Guide</li>
+                            </ul>
+                            <div class="bottom">
+                                <span class="price">₱74,999</span>
+                                <button>Avail now!</button>
+                            </div>-->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-xl-4">
+                    <div class="card">
+                        <div class="package-img">
+                            <img src="imgs\temp.png"
+                                class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h3 id="temperature">Loading...</h3>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-xl-4">
+                    <div class="card">
+                        <div class="package-img">
+                            <img src="imgs\meth.png" class="card-img-top"
+                                alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h3 id="methane">Loading...</h3>
+                            <!--<p class="card-text">Ever been to Hongkong? Not yet? Book our exclusive package now for your
+                                first ever experience in the Fragrant Harbour.</p>
+                            <h4>Package includes:</h4>
+                            <ul>
+                                <li class="hongkong">Flight Accomodation</li>
+                                <li class="hongkong">Hotel Reservation</li>
+                                <li class="hongkong">Tour Guide</li>
+                            </ul>
+                            <div class="bottom">
+                                <span class="price">₱70,499</span>
+                                <button>Avail now!</button>
+                            </div>-->
+                        </div>
+                    </div>
+                </div>
+
+                <!--<div class="col-md-6 col-xl-4">
+                    <div class="card">
+                        <div class="package-img">
+                            <img src="https://miro.medium.com/max/1400/0*ctkYGzVnRyD5iitF.jpg" class="card-img-top"
+                                alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h3>The Down Under Package</h3>
+                            <p class="card-text">Ready for an Australian countryside adventure? Pack your things now and
+                                let us get you started!</p>
+                            <h4>Package includes:</h4>
+                            <ul>
+                                <li class="australia">Flight Accomodation</li>
+                                <li class="australia">Camping Equipment</li>
+                                <li class="australia">Wilderness Guide</li>
+                                <li class="australia">Safety Insurance</li>
+                            </ul>
+                            <div class="bottom">
+                                <span class="price">₱79,999</span>
+                                <button>Avail now!</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-xl-4">
+                    <div class="card">
+                        <div class="package-img">
+                            <img src="https://m.economictimes.com/thumb/msid-66346669,width-1200,height-900,resizemode-4,imgsize-1478199/switzerland.jpg"
+                                class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h3>Europe's Playground Package</h3>
+                            <p class="card-text">Want a europian nature excursion? Avail our Switzerland package now for
+                                a trip to the Playground of Europe!</p>
+                            <h4>Package includes:</h4>
+                            <ul>
+                                <li class="switzerland">Flight Accomodation</li>
+                                <li class="switzerland">Camping Equipment</li>
+                                <li class="switzerland">Car Rental</li>
+                                <li class="switzerland">Tour Guide</li>
+                            </ul>
+                            <div class="bottom">
+                                <span class="price">₱83,999</span>
+                                <button>Avail now!</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-xl-4">
+                    <div class="card">
+                        <div class="package-img">
+                            <img src="https://x-default-stgec.uplynk.com/ausw/slices/9d5/5c3d34b8b29a45469a86c02775b7a2cf/9d52c22f838545f2896f308e77f04fc2/poster_c543fec544fd41c6a10043899cae3c01.png"
+                                class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h3>The Grand Canyon Package</h3>
+                            <p class="card-text">Available now! A fun, nature-filled trip to the Arizona. Get your
+                                camping gear and book our package!</p>
+                            <h4>Package includes:</h4>
+                            <ul>
+                                <li class="arizona">Flight Accomodation</li>
+                                <li class="arizona">Camping Equipment</li>
+                                <li class="arizona">Car Rental</li>
+                                <li class="arizona">Tour Guide</li>
+                            </ul>
+                            <div class="bottom">
+                                <span class="price">₱85,999</span>
+                                <button>Avail now!</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-icons d-flex justify-content-center mb-3">
+            <a href="#" class="rounded-circle"><i class="fa fa-facebook-f"></i></a>
+            <a href="#" class="rounded-circle"><i class="fa fa-twitter"></i></a>
+            <a href="#" class="rounded-circle"><i class="fa fa-instagram"></i></a>
+            <a href="#" class="rounded-circle"><i class="fa fa-google"></i></a>
+        </div>
+        <h5><img src="imgs\logo.png" width="35" alt="">ENVI - DRONE</h5>
+        <div class="footer-links">
+            <a href="index.html" class="mx-2">HOME</a> |
+            
+            <a href="stats.html" class="mx-2">STATS</a> |
+            <a href="user.html" class="mx-2">USER</a> |
+            <a href="contact.html" class="mx-2">CONTACT US</a>
+        </div>
+    </footer>
+    <!-- Firebase SDK -->
+  <script src="https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.17.1/firebase-database.js"></script>
+  <script src="firebase.js"></script>
+</body>
+
+</html>
